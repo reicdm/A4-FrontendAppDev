@@ -217,3 +217,7 @@ a {
     background-color: var(--blue);
     color: var(--lightgray);
 }
+
+.skills-line {
+    border-color: var(--gray) !important;
+}

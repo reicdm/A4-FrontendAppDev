@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("A4-AppDev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65339e1cfb0ec50338550be08698e8a5465e29ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f43523b6ff1004de4828314d96cc609cad43835")]
 [assembly: System.Reflection.AssemblyProductAttribute("A4-AppDev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("A4-AppDev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
