@@ -11,7 +11,7 @@ namespace A4_AppDev.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contact()
         {
             return View();
         }

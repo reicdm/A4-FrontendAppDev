@@ -1,8 +1,92 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "ABOUT ME";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row px-5">
+    <div class="col-lg-8 col-md-8">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="intro-box">
+                    <p class="text-center mb-0 intro-txt">INTRODUCTION</p>
+                    <p class="text-center text-break px-2 intro-txt2">
+                        Hi, I'm Reina — a BS in Information Technology student at the Polytechnic University of the Philippines with a passion for web and app development. I love turning ideas into clean, functional digital experiences.
+                    </p>
+                </div>
+                <div class="edu-box mt-2">
+                    <p class="text-center edu-title">EDUCATION</p>
+                    <p class="text-center edu-body">2023 - PRESENT</p>
+                    <p class="text-center edu-body">Polytechnic University of the Philippines</p>
+                    <p class="text-center edu-body">BS in Information Technology</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="cert-soft p-3 border border-3 opacity-100">
+                    <div class="cert-box">
+                        <p class="text-center certsoft-title">CERTIFICATES</p>
+                        <ul class="cert-body">
+                            <li>CS50's Introduction to Computer Science</li>
+                            <li>Codyssey: The Pursuit of Programming and Creativity</li>
+                            <li>Generative Artificial Intelligence, Cybersecurity, Emotional Intelligence, and Job Opportunities</li>
+                        </ul>
+                        <hr class="border border-1 opacity-100 hr-line w-75 mx-auto m-0" />
+                    </div>
+                    <div class="soft-box">
+                        <p class="text-center certsoft-title m-2">SOFTWARE</p>
+                        <div class="row row-cols-4 g-1 mt-1 px-3 align-items-center justify-content-center text-center">
+                            <div class="col"><img src="~/images/software/github.png" alt="GitHub" class="img-fluid" /></div>
+                            <div class="col"><img src="~/images/software/mysql.png" alt="MySQL" class="img-fluid" /></div>
+                            <div class="col"><img src="~/images/software/xampp.png" alt="Xampp" class="img-fluid" /></div>
+                            <div class="col"><img src="~/images/software/vsc.png" alt="VSC" class="img-fluid" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border border-5 opacity-100 hr-line mb-3 p-0">
+        <div class="d-flex align-items-center">
+            <img class="my-img mr-5" src="~/images/rei.png" alt="Rei's Photo" />
+
+            <div class="vline"></div>
+
+            <div class="d-flex flex-column align-self-start ml-5 work-links">
+                <p class="work-title">WORK WITH ME!</p>
+                <a href="https://mail.google.com/"><div class="d-flex align-items-center gap-4 mb-2"><img src="~/images/contact/email.png" alt="Email" /><span>rcdrmagpantay@gmail.com</span></div></a>
+                <a href="https://www.linkedin.com/in/reina-chloe-magpantay/"><div class="d-flex align-items-center gap-4 mb-2"><img src="~/images/contact/linkedin.png" alt="LinkedIn" /><span>Reina Chloe Magpantay</span></div></a>
+                <a href="https://github.com/reicdm"><div class="d-flex align-items-center gap-4 mb-2"><img src="~/images/contact/github.png" alt="GitHub" /><span>reicdm</span></div></a>
+            </div>
+
+            <div class="ms-auto">
+                <img src="~/images/decor/decor1.png" alt="Photo" class="img-fluid decor-img" />
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4">
+        <hr class="border border-5 opacity-100 hr-line mb-3 mt-0 p-0">
+        <p class="skills-title px-3">SKILLS</p>
+        <div class="row mt-3 mx-0 p-3 border border-3 opacity-100 skills-row">
+            <div class="col skills px-5">
+                <div class="d-flex">
+                    <div class="d-flex flex-column align-items-center me-3">
+                        <img src="~/images/skills/html5.png" alt="HTML" class="mb-2" />
+                        <img src="~/images/skills/css2.png" alt="CSS" class="mb-2" />
+                        <img src="~/images/skills/mysql2.png" alt="SQL" class="mb-2" />
+                        <img src="~/images/skills/php2.png" alt="LARAVEL" class="mb-2" />
+                        <img src="~/images/skills/js2.png" alt="JAVASCRIPT" class="mb-2" />
+                        <img src="~/images/skills/java2.png" alt="JAVA" class="mb-2" />
+                        <img src="~/images/skills/python2.png" alt="PYTHON" class="mb-2" />
+                    </div>
+                    <div class="border-start border-dark border-5 my-3"></div>
+                    <div class="d-flex flex-column justify-content-around">
+                        <p class="mb-2 fw-bold">HTML</p>
+                        <p class="mb-2 fw-bold">CSS</p>
+                        <p class="mb-2 fw-bold">SQL</p>
+                        <p class="mb-2 fw-bold">LARAVEL (PHP)</p>
+                        <p class="mb-2 fw-bold">JAVASCRIPT</p>
+                        <p class="mb-2 fw-bold">JAVA</p>
+                        <p class="mb-2 fw-bold">PYTHON</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

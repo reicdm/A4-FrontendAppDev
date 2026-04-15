@@ -8,39 +8,47 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/A4_AppDev.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">A4_AppDev</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+    <header class="px-5 pb-4">
+        <div class="text-center title-page m-0 p-0">@ViewData["Title"]</div>
+        <hr class="border border-2 opacity-100 hr-line m-0 p-0" />
+        <div class="row justify-content-between align-items-start m-0 p-0">
+            <div class="col-auto title-info title-name">Reina Chloe D. Magpantay</div>
+            <div class="col-auto title-info title-role">Information Technologist</div>
+        </div>
+        <hr class="border border-5 opacity-100 hr-line m-0 p-0">
+        <nav class="navbar navbar-expand-lg border-bottom border-2 nav-border">
+            <div class="container-fluid px-0">
+                <ul class="navbar-nav d-flex flex-row w-100">
+                    <li class="nav-item d-flex justify-content-center align-items-center w-25">
+                        <a class="nav-link fw-bold nav-bar" href="/Home/Home">HOME</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center w-25 border-start nav-divider">
+                        <a class="nav-link fw-bold nav-bar" href="/Home/Projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center w-25 border-start nav-divider">
+                        <a class="nav-link fw-bold nav-bar" href="/Home/Index">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center w-25 border-start nav-divider">
+                        <a class="nav-link fw-bold nav-bar" href="/Home/Contact">CONTACT ME</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid">
+        <main role="main" class="">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - A4_AppDev - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <footer class="footer text-muted px-5">
+        <hr class="border border-5 opacity-100 hr-line mt-3">
+        <p class="text-center fw-bold">© 2024 - A4_AppDev</p>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
